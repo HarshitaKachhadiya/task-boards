@@ -156,7 +156,7 @@ export const board: any[] = [
                 button: [
                     { name: "#UI003", color: "text-[#606C80]", bgColor: "bg-[#FFFFFF]", brdColor: "border-[#EBEEF2]" },
                     { name: "Development", color: "text-[#DB2777]", bgColor: "bg-[#ec48991a]" },
-                    { name: "Backlog", color: "text-[#CA8A04]", bgColor: "bg-[#eab3081a]" }
+                    { name: "Backlog", color: "text-[#606C80]", bgColor: "bg-[#eab3081a]" }
                 ],
                 avatar: [
                     Avatar1, 
