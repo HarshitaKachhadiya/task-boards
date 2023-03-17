@@ -1,8 +1,19 @@
+import { useEffect } from "react";
 import { menu } from "../utility/menu";
 import { Menu, UnFoldMore } from "./AllSVG";
 import Menubar from "./Menubar";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Sidebar = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      easing: "ease-in-out-back",
+    });
+  }, []);
+
   return (
     <div
       data-aos="fade-right"

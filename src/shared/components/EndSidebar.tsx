@@ -1,7 +1,17 @@
+import { useEffect } from "react";
 import { users } from "../utility/users";
 import { Close, RightArrow } from "./AllSVG";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const EndSidebar = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      easing: "ease-in-out-back",
+    });
+  }, []);
+
   return (
     <div
       data-aos="fade-left"
