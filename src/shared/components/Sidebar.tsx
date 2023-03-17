@@ -17,7 +17,7 @@ const Sidebar = () => {
   return (
     <div
       data-aos="fade-right"
-      data-aos-delay="500"
+      data-aos-delay="300"
       className="w-[302px] border-r border-brdColor lg:block hidden"
     >
       <div className="h-[88px] flex flex-row justify-between items-center py-[30px] px-[32px] border-b border-brdColor">

@@ -14,7 +14,7 @@ const HeadContent = () => {
   return (
     <div
       data-aos="fade-right"
-      data-aos-delay="1200"
+      data-aos-delay="900"
       className="hidden h-[88px] w-full xl:flex justify-between items-center py-[20px] px-9 border-b border-brdColor"
     >
       <div className="flex items-center gap-8 w-[320px] h-[48px]">

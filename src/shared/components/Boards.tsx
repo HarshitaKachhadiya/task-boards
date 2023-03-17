@@ -13,13 +13,13 @@ const Boards = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4  gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
       {Array.isArray(board) &&
         board.map((item: any, index: number) => (
           <div className="flex flex-col gap-8 " key={index}>
             <div
               data-aos="fade-right"
-              data-aos-delay="1200"
+              data-aos-delay="900"
               className="flex justify-between items-center gap-4 w-full"
             >
               <div className="flex gap-3">
@@ -36,7 +36,7 @@ const Boards = () => {
               item?.task.map((i: any, idx: number) => (
                 <div
                   data-aos="fade-up"
-                  data-aos-delay="1800"
+                  data-aos-delay="1300"
                   key={idx}
                   className="bg-[#FFFFFF] rounded-lg shadow-[0px,1px,3px,rgba(96,108,128,0.05)] p-5 gap-3 flex flex-col"
                 >

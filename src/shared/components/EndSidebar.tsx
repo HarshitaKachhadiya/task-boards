@@ -15,7 +15,7 @@ const EndSidebar = () => {
   return (
     <div
       data-aos="fade-left"
-      data-aos-delay="800"
+      data-aos-delay="550"
       className="hidden lg:flex justify-end"
     >
       <div className="w-full flex flex-col justify-between items-center gap-[168px] border-l border-brdColor">

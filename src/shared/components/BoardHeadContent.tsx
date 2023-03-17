@@ -29,7 +29,7 @@ const BoardHeadContent = () => {
   return (
     <div
       data-aos="fade-right"
-      data-aos-delay="1200"
+      data-aos-delay="900"
       className="flex flex-col items-start gap-7 w-full"
     >
       {/* Task boards */}
