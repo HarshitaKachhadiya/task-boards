@@ -1,22 +1,12 @@
-import { useEffect } from "react";
 import { Menu } from "./AllSVG";
 import BoardHeadContent from "./BoardHeadContent";
 import Boards from "./Boards";
 import HeadContent from "./HeadContent";
 import { useState } from "react";
 import MenuOptions from "./MenuOptions";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Content = () => {
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      easing: "ease-in-out-back",
-    });
-  }, []);
 
   return (
     <div
