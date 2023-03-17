@@ -1,15 +1,6 @@
-import {useEffect} from 'react';
 import { menu } from "../utility/menu";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const MenuOptions = () => {
-    useEffect(() => {
-        AOS.init({
-          duration: 1200,
-          easing: 'ease-in-out-back'
-        });
-      }, [])
   return (
     <>
       {Array.isArray(menu) &&

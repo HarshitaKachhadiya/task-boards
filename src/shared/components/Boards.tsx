@@ -1,17 +1,7 @@
-import { useEffect } from "react";
 import { board } from "../utility/board";
 import { AddBtn, DotIcon, File, Link, Msg, Plus } from "./AllSVG";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Boards = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      easing: "ease-in-out-back",
-    });
-  }, []);
-
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
       {Array.isArray(board) &&
@@ -36,7 +26,7 @@ const Boards = () => {
               item?.task.map((i: any, idx: number) => (
                 <div
                   data-aos="fade-up"
-                  data-aos-delay="1300"
+                  data-aos-delay="2500"
                   key={idx}
                   className="bg-[#FFFFFF] rounded-lg shadow-[0px,1px,3px,rgba(96,108,128,0.05)] p-5 gap-3 flex flex-col"
                 >
@@ -116,7 +106,7 @@ const Boards = () => {
               ))}
             <div
               data-aos="fade-up"
-              data-aos-delay="2700"
+              data-aos-delay="2500"
               className="bg-[#FFFFFF] rounded-lg shadow-[0px,1px,3px,rgba(96,108,128,0.05)] p-[6px] gap-[10px] flex items-center justify-center"
             >
               <Plus />

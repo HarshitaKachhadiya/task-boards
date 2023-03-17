@@ -1,16 +1,6 @@
-import { useEffect } from "react";
 import { Folder, Notification, Search, Vector, Voice } from "./AllSVG";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const HeadContent = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      easing: "ease-in-out-back",
-    });
-  }, []);
-
   return (
     <div
       data-aos="fade-right"
