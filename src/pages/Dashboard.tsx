@@ -4,7 +4,7 @@ import Sidebar from "../shared/components/Sidebar";
 
 const Dashboard = () => {
   return (
-    <div className="w-full bg-bgColor min-h-screen flex flex-row">
+    <div className="w-full bg-[#F7F8FA] flex">
         <Sidebar />
         <Content />
         <EndSidebar />

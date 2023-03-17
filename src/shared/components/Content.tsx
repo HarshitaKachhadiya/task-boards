@@ -1,29 +1,53 @@
-
+import { useEffect } from "react";
+import { Menu } from "./AllSVG";
 import BoardHeadContent from "./BoardHeadContent";
+import Boards from "./Boards";
 import HeadContent from "./HeadContent";
+import { useState } from "react";
+import MenuOptions from "./MenuOptions";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Content = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      easing: "ease-in-out-back",
+    });
+  }, []);
+
   return (
-    // Content
-
-    <div className="w-[1296px] flex flex-col items-start">
-      {/* Top */}
-
-      <HeadContent />
-
-      {/* Content */}
-
-      <BoardHeadContent />
-
-      {/* Boards */}
-
-      <div className="grid grid-rows-4 grid-flow-col gap-6">
-        <div className="flex flex-col items-start gap-8">
-          <div className="flex flex-row justify-between items-center gap-4 self-stretch">
-            
+    <div
+      data-aos="fade-right"
+      data-aos-delay="500"
+      className="w-full flex flex-col items-start lg:whitespace-nowrap"
+    >
+      <div className="flex flex-col w-full lg:hidden">
+        <div className="h-[88px] flex flex-row justify-between items-center py-[30px] px-[32px] border-b border-brdColor">
+          <h4 className="font-bold text-xl text-textColor">Dashboard</h4>
+          <div onClick={() => setIsOpen(!isOpen)}>
+            <Menu />
           </div>
         </div>
+        {isOpen && <MenuOptions />}
       </div>
+
+      {!isOpen && (
+        <div className="w-full">
+          {/* HeadContent */}
+          <HeadContent />
+
+          {/* Board Content */}
+          <div className="lg:p-9 p-4  flex flex-col gap-[44px] w-full">
+            <BoardHeadContent />
+
+            {/* Boards List */}
+            <Boards />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

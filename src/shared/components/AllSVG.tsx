@@ -526,56 +526,16 @@ export const DownArrow = () => {
 export const FileIcon = () => {
   return (
     <svg
-      width="48"
-      height="48"
-      viewBox="0 0 48 48"
+      width="16"
+      height="20"
+      viewBox="0 0 16 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g filter="url(#filter0_d_107_1777)">
-        <rect x="4" y="3" width="40" height="40" rx="8" fill="white" />
-        <path
-          d="M26 13H18C16.9 13 16.01 13.9 16.01 15L16 31C16 32.1 16.89 33 17.99 33H30C31.1 33 32 32.1 32 31V19L26 13ZM30 31H18V15H25V20H30V31ZM20.82 24.05L19.4 25.46L22.94 29L28.6 23.34L27.19 21.93L22.95 26.17L20.82 24.05Z"
-          fill="#C7CED9"
-        />
-        <rect x="4" y="3" width="40" height="40" rx="8" stroke="#EBEEF2" />
-      </g>
-      <defs>
-        <filter
-          id="filter0_d_107_1777"
-          x="0.5"
-          y="0.5"
-          width="47"
-          height="47"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1" />
-          <feGaussianBlur stdDeviation="1.5" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0.376471 0 0 0 0 0.423529 0 0 0 0 0.501961 0 0 0 0.05 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_107_1777"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_107_1777"
-            result="shape"
-          />
-        </filter>
-      </defs>
+      <path
+        d="M10 0H2C0.9 0 0.0100002 0.9 0.0100002 2L0 18C0 19.1 0.89 20 1.99 20H14C15.1 20 16 19.1 16 18V6L10 0ZM14 18H2V2H9V7H14V18ZM4.82 11.05L3.4 12.46L6.94 16L12.6 10.34L11.19 8.93L6.95 13.17L4.82 11.05Z"
+        fill="#C7CED9"
+      />
     </svg>
   );
 };
@@ -583,56 +543,13 @@ export const FileIcon = () => {
 export const CenterIcon = () => {
   return (
     <svg
-      width="48"
-      height="48"
-      viewBox="0 0 48 48"
+      width="18"
+      height="12"
+      viewBox="0 0 18 12"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g filter="url(#filter0_d_107_1778)">
-        <rect x="4" y="3" width="40" height="40" rx="8" fill="white" />
-        <path
-          d="M22 29H26V27H22V29ZM15 17V19H33V17H15ZM18 24H30V22H18V24Z"
-          fill="#C7CED9"
-        />
-        <rect x="4" y="3" width="40" height="40" rx="8" stroke="#EBEEF2" />
-      </g>
-      <defs>
-        <filter
-          id="filter0_d_107_1778"
-          x="0.5"
-          y="0.5"
-          width="47"
-          height="47"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1" />
-          <feGaussianBlur stdDeviation="1.5" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0.376471 0 0 0 0 0.423529 0 0 0 0 0.501961 0 0 0 0.05 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_107_1778"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_107_1778"
-            result="shape"
-          />
-        </filter>
-      </defs>
+      <path d="M7 12H11V10H7V12ZM0 0V2H18V0H0ZM3 7H15V5H3V7Z" fill="#C7CED9" />
     </svg>
   );
 };
@@ -640,56 +557,13 @@ export const CenterIcon = () => {
 export const LeftIcon = () => {
   return (
     <svg
-      width="48"
-      height="48"
-      viewBox="0 0 48 48"
+      width="18"
+      height="12"
+      viewBox="0 0 18 12"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g filter="url(#filter0_d_107_1779)">
-        <rect x="4" y="3" width="40" height="40" rx="8" fill="white" />
-        <path
-          d="M15 29H21V27H15V29ZM15 17V19H33V17H15ZM15 24H27V22H15V24Z"
-          fill="#C7CED9"
-        />
-        <rect x="4" y="3" width="40" height="40" rx="8" stroke="#EBEEF2" />
-      </g>
-      <defs>
-        <filter
-          id="filter0_d_107_1779"
-          x="0.5"
-          y="0.5"
-          width="47"
-          height="47"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1" />
-          <feGaussianBlur stdDeviation="1.5" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0.376471 0 0 0 0 0.423529 0 0 0 0 0.501961 0 0 0 0.05 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_107_1779"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_107_1779"
-            result="shape"
-          />
-        </filter>
-      </defs>
+      <path d="M0 12H6V10H0V12ZM0 0V2H18V0H0ZM0 7H12V5H0V7Z" fill="#C7CED9" />
     </svg>
   );
 };
@@ -697,56 +571,16 @@ export const LeftIcon = () => {
 export const BubbleIcon = () => {
   return (
     <svg
-      width="48"
-      height="48"
-      viewBox="0 0 48 48"
+      width="22"
+      height="12"
+      viewBox="0 0 22 12"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g filter="url(#filter0_d_107_1780)">
-        <rect x="4" y="3" width="40" height="40" rx="8" fill="white" />
-        <path
-          d="M17 19C14.79 19 13 20.79 13 23C13 25.21 14.79 27 17 27C19.21 27 21 25.21 21 23C21 20.79 19.21 19 17 19ZM29 17C25.69 17 23 19.69 23 23C23 26.31 25.69 29 29 29C32.31 29 35 26.31 35 23C35 19.69 32.31 17 29 17ZM29 27C26.79 27 25 25.21 25 23C25 20.79 26.79 19 29 19C31.21 19 33 20.79 33 23C33 25.21 31.21 27 29 27Z"
-          fill="#C7CED9"
-        />
-        <rect x="4" y="3" width="40" height="40" rx="8" stroke="#EBEEF2" />
-      </g>
-      <defs>
-        <filter
-          id="filter0_d_107_1780"
-          x="0.5"
-          y="0.5"
-          width="47"
-          height="47"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1" />
-          <feGaussianBlur stdDeviation="1.5" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0.376471 0 0 0 0 0.423529 0 0 0 0 0.501961 0 0 0 0.05 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_107_1780"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_107_1780"
-            result="shape"
-          />
-        </filter>
-      </defs>
+      <path
+        d="M4 2C1.79 2 0 3.79 0 6C0 8.21 1.79 10 4 10C6.21 10 8 8.21 8 6C8 3.79 6.21 2 4 2ZM16 0C12.69 0 10 2.69 10 6C10 9.31 12.69 12 16 12C19.31 12 22 9.31 22 6C22 2.69 19.31 0 16 0ZM16 10C13.79 10 12 8.21 12 6C12 3.79 13.79 2 16 2C18.21 2 20 3.79 20 6C20 8.21 18.21 10 16 10Z"
+        fill="#C7CED9"
+      />
     </svg>
   );
 };
@@ -754,66 +588,111 @@ export const BubbleIcon = () => {
 export const EditIcon = () => {
   return (
     <svg
-      width="48"
-      height="48"
-      viewBox="0 0 48 48"
+      width="18"
+      height="16"
+      viewBox="0 0 18 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g filter="url(#filter0_d_107_1781)">
-        <rect x="4" y="3" width="40" height="40" rx="8" fill="white" />
-        <path d="M25.5 15H21.5V19H25.5V15Z" fill="#C7CED9" />
-        <path d="M19.5 27H15.5V31H19.5V27Z" fill="#C7CED9" />
-        <path d="M19.5 21H15.5V25H19.5V21Z" fill="#C7CED9" />
-        <path d="M19.5 15H15.5V19H19.5V15Z" fill="#C7CED9" />
-        <path d="M31.5 15H27.5V19H31.5V15Z" fill="#C7CED9" />
-        <path
-          d="M22.5 28.86V31H24.6L30.58 25.03L28.46 22.91L22.5 28.86Z"
-          fill="#C7CED9"
-        />
-        <path d="M25.5 23.03V21H21.5V25H23.53L25.5 23.03Z" fill="#C7CED9" />
-        <path
-          d="M32.35 22.56L30.94 21.15C30.74 20.95 30.43 20.95 30.23 21.15L29.17 22.21L31.29 24.33L32.35 23.27C32.55 23.07 32.55 22.76 32.35 22.56Z"
-          fill="#C7CED9"
-        />
-        <rect x="4" y="3" width="40" height="40" rx="8" stroke="#EBEEF2" />
-      </g>
-      <defs>
-        <filter
-          id="filter0_d_107_1781"
-          x="0.5"
-          y="0.5"
-          width="47"
-          height="47"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1" />
-          <feGaussianBlur stdDeviation="1.5" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0.376471 0 0 0 0 0.423529 0 0 0 0 0.501961 0 0 0 0.05 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_107_1781"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_107_1781"
-            result="shape"
-          />
-        </filter>
-      </defs>
+      <path d="M10.5 0H6.5V4H10.5V0Z" fill="#C7CED9" />
+      <path d="M4.5 12H0.5V16H4.5V12Z" fill="#C7CED9" />
+      <path d="M4.5 6H0.5V10H4.5V6Z" fill="#C7CED9" />
+      <path d="M4.5 0H0.5V4H4.5V0Z" fill="#C7CED9" />
+      <path d="M16.5 0H12.5V4H16.5V0Z" fill="#C7CED9" />
+      <path
+        d="M7.5 13.86V16H9.6L15.58 10.03L13.46 7.91L7.5 13.86Z"
+        fill="#C7CED9"
+      />
+      <path d="M10.5 8.03V6H6.5V10H8.53L10.5 8.03Z" fill="#C7CED9" />
+      <path
+        d="M17.35 7.56L15.94 6.15C15.74 5.95 15.43 5.95 15.23 6.15L14.17 7.21L16.29 9.33L17.35 8.27C17.55 8.07 17.55 7.76 17.35 7.56Z"
+        fill="#C7CED9"
+      />
+    </svg>
+  );
+};
+
+export const DotIcon = () => {
+  return (
+    <svg
+      width="16"
+      height="4"
+      viewBox="0 0 16 4"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0ZM14 0C12.9 0 12 0.9 12 2C12 3.1 12.9 4 14 4C15.1 4 16 3.1 16 2C16 0.9 15.1 0 14 0ZM8 0C6.9 0 6 0.9 6 2C6 3.1 6.9 4 8 4C9.1 4 10 3.1 10 2C10 0.9 9.1 0 8 0Z"
+        fill="#C7CED9"
+      />
+    </svg>
+  );
+};
+
+export const File = ({ color }: any) => {
+  return (
+    <svg
+      width="14"
+      height="18"
+      viewBox="0 0 14 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M13.175 5.17501L9.14999 1.15001C8.84166 0.841672 8.41666 0.666672 7.97499 0.666672H1.99999C1.08333 0.666672 0.341662 1.41667 0.341662 2.33334L0.333328 15.6667C0.333328 16.5833 1.07499 17.3333 1.99166 17.3333H12C12.9167 17.3333 13.6667 16.5833 13.6667 15.6667V6.35834C13.6667 5.91667 13.4917 5.49167 13.175 5.17501ZM5.52499 13.4083L3.75833 11.6417C3.43333 11.3167 3.43333 10.7917 3.75833 10.4667C4.08333 10.1417 4.60833 10.1417 4.93333 10.4667L6.10833 11.6417L9.05833 8.69167C9.38333 8.36667 9.90833 8.36667 10.2333 8.69167C10.5583 9.01667 10.5583 9.54167 10.2333 9.86667L6.7 13.4C6.38333 13.7333 5.84999 13.7333 5.52499 13.4083ZM8.66666 6.50001C8.20833 6.50001 7.83333 6.12501 7.83333 5.66667V1.91667L12.4167 6.50001H8.66666Z"
+        fill={color}
+      />
+    </svg>
+  );
+};
+
+export const Link = ({ color }: any) => {
+  return (
+    <svg
+      width="14"
+      height="18"
+      viewBox="0 0 14 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.97501 0.666672H2.00001C1.08334 0.666672 0.333344 1.41667 0.333344 2.33334V15.6667C0.333344 16.5833 1.08334 17.3333 2.00001 17.3333H12C12.9167 17.3333 13.6667 16.5833 13.6667 15.6667V6.35834C13.6667 5.91667 13.4917 5.49167 13.175 5.18334L9.15001 1.15834C8.84168 0.841672 8.41668 0.666672 7.97501 0.666672ZM10.3333 11.5C10.3333 13.45 8.65834 15.0083 6.67501 14.8167C4.94168 14.65 3.66668 13.1 3.66668 11.3583V7.03334C3.66668 5.94167 4.45001 4.95001 5.53334 4.84167C6.78334 4.71667 7.83334 5.69167 7.83334 6.91667V10.6667C7.83334 11.125 7.45834 11.5 7.00001 11.5C6.54168 11.5 6.16668 11.125 6.16668 10.6667V6.91667C6.16668 6.68334 5.98334 6.50001 5.75001 6.50001C5.51668 6.50001 5.33334 6.68334 5.33334 6.91667V11.4083C5.33334 12.2417 5.90001 13.0083 6.71668 13.1417C7.76668 13.3167 8.66668 12.5083 8.66668 11.5V9.00001C8.66668 8.54167 9.04168 8.16667 9.50001 8.16667C9.95834 8.16667 10.3333 8.54167 10.3333 9.00001V11.5ZM8.66668 4.83334V2.33334L12 5.66667H9.50001C9.04168 5.66667 8.66668 5.29167 8.66668 4.83334Z"
+        fill={color}
+      />
+    </svg>
+  );
+};
+
+export const Msg = ({ color }: any) => {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M15.6667 0.666672H2.33334C1.41667 0.666672 0.675005 1.41667 0.675005 2.33334L0.666672 17.3333L4.00001 14H15.6667C16.5833 14 17.3333 13.25 17.3333 12.3333V2.33334C17.3333 1.41667 16.5833 0.666672 15.6667 0.666672ZM13.1667 10.6667H4.83334C4.37501 10.6667 4.00001 10.2917 4.00001 9.83334C4.00001 9.37501 4.37501 9.00001 4.83334 9.00001H13.1667C13.625 9.00001 14 9.37501 14 9.83334C14 10.2917 13.625 10.6667 13.1667 10.6667ZM13.1667 8.16667H4.83334C4.37501 8.16667 4.00001 7.79167 4.00001 7.33334C4.00001 6.87501 4.37501 6.50001 4.83334 6.50001H13.1667C13.625 6.50001 14 6.87501 14 7.33334C14 7.79167 13.625 8.16667 13.1667 8.16667ZM13.1667 5.66667H4.83334C4.37501 5.66667 4.00001 5.29167 4.00001 4.83334C4.00001 4.37501 4.37501 4.00001 4.83334 4.00001H13.1667C13.625 4.00001 14 4.37501 14 4.83334C14 5.29167 13.625 5.66667 13.1667 5.66667Z"
+        fill={color}
+      />
+    </svg>
+  );
+};
+
+export const Plus = () => {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8.99999 0.666687C4.39999 0.666687 0.666656 4.40002 0.666656 9.00002C0.666656 13.6 4.39999 17.3334 8.99999 17.3334C13.6 17.3334 17.3333 13.6 17.3333 9.00002C17.3333 4.40002 13.6 0.666687 8.99999 0.666687ZM13.1667 9.83335H9.83332V13.1667H8.16666V9.83335H4.83332V8.16669H8.16666V4.83335H9.83332V8.16669H13.1667V9.83335Z"
+        fill="#C7CED9"
+      />
     </svg>
   );
 };
