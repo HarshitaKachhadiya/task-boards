@@ -27,7 +27,6 @@ const HeadContent = () => {
       <ul className="flex items-start gap-8 font-bold text-[11px] text-[#7A8699]">
         <li className="text-[#323C4D]">Dashboard</li>
         <li>My Tasks</li>
-        <li>My Tasks</li>
         <li>Reporting</li>
         <li>Portfolios</li>
         <li>Goals</li>
