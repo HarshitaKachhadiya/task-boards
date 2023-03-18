@@ -64,24 +64,20 @@ const BoardHeadContent = () => {
         </ul>
 
         <div className="flex items-start gap-2 pt-2 justify-center rounded-3xl">
-          <div className="flex items-start">
+          <div className="flex -space-x-4">
             <img
-              className="mx-[-6px]"
               src={require("../../assests/images/Avatar (17).png")}
               alt="Avatar"
             />
             <img
-              className="mx-[-6px]"
               src={require("../../assests/images/Avatar (18).png")}
               alt="Avatar"
             />
             <img
-              className="mx-[-6px]"
               src={require("../../assests/images/Avatar (19).png")}
               alt="Avatar"
             />
             <img
-              className="mx-[-6px]"
               src={require("../../assests/images/Avatar (20).png")}
               alt="Avatar"
             />
