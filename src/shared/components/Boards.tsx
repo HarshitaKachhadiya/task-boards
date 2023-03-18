@@ -57,48 +57,37 @@ const Boards = () => {
                       ))}
                   </div>
                   {i?.avatar && (
-                    <div className="flex justify-between items-center gap-[26px]">
-                      <div className="flex items-start gap-2 rounded-3xl">
-                        <div className="flex items-start">
+                    <div className="flex justify-between items-center">
+                      <div className="flex justify-between items-center gap-2">
+                        <div className="flex -space-x-3">
                           {Array.isArray(i?.avatar) &&
                             i?.avatar.map((img: any, imgIdx: number) => (
                               <img
                                 key={imgIdx}
-                                className={`${
-                                  i?.avatar?.length > 1 && "mx-[-4px]"
-                                } h-8 w-8`}
                                 src={img}
                                 alt="Avatar"
+                                className="h-8 w-8"
                               />
                             ))}
                           {i?.avatar?.length > 1 && (
-                            <div className="h-8 w-8 flex items-center justify-center gap-[10px] bg-[#F2F4F7] rounded-3xl">
-                              <span className="font-extrabold text-xs text-[#606C80]">
-                                +5
-                              </span>
-                            </div>
+                            <p className="flex items-center justify-center w-8 h-8 text-xs font-medium text-[#606C80] bg-[#F2F4F7] rounded-full cursor-pointer">
+                              +5
+                            </p>
                           )}
                         </div>
-
-                        <div className="flex items-center justify-center h-8 w-8 p-2 gap-[10px] bg-[#ffffff] border-2 border-dashed border-[#EBEEF2] rounded-[48px]">
+                        <div className="flex items-center justify-center h-8 w-8 p-[5px] gap-[10px] bg-[#ffffff] border-2 border-dashed border-[#EBEEF2] rounded-[48px]">
                           <AddBtn />
                         </div>
                       </div>
-                      <div className="flex gap-2">
-                        <div className="flex gap-2 items-center">
-                          <Link color={i?.linkColor} />
-                          <p
-                            className={`${i?.link} text-[10px] font-extrabold`}
-                          >
-                            {i?.linkCount}
-                          </p>
-                        </div>
-                        <div className="flex gap-2 items-center">
-                          <Msg color={i?.msgColor} />
-                          <p className={`${i?.msg} text-[10px] font-extrabold`}>
-                            {i?.msgCount}
-                          </p>
-                        </div>
+                      <div className="flex items-center gap-1">
+                        <Link color={i?.linkColor} />
+                        <p className={`${i?.link} text-[10px] font-extrabold`}>
+                          {i?.linkCount}
+                        </p>
+                        <Msg color={i?.msgColor} />
+                        <p className={`${i?.msg} text-[10px] font-extrabold`}>
+                          {i?.msgCount}
+                        </p>
                       </div>
                     </div>
                   )}

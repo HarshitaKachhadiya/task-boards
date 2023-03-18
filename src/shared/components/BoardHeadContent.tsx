@@ -92,7 +92,7 @@ const BoardHeadContent = () => {
 
           {/* Add Button */}
 
-          <div className="flex items-center justify-center p-2 gap-[10px] bg-[#ffffff] border-2 border-dashed border-[#EBEEF2] rounded-[48px]">
+          <div className="flex items-center justify-center p-1.5 gap-[10px] bg-[#ffffff] border-2 border-dashed border-[#EBEEF2] rounded-[48px]">
             <AddBtn />
           </div>
         </div>
