@@ -9,7 +9,7 @@ const EndSidebar = () => {
       className="hidden lg:flex justify-end"
     >
       <div className="w-full flex flex-col justify-between items-center gap-[168px] border-l border-brdColor">
-        <div className="w-[88px] h-[87px] flex flex-row justify-center items-center gap-[10px] border-b border-brdColor">
+        <div className="w-[88px] h-[87px] flex justify-center items-center gap-[10px] border-b border-brdColor">
           <Close />
         </div>
 
@@ -20,7 +20,7 @@ const EndSidebar = () => {
             ))}
         </div>
 
-        <div className="w-[88px] h-[87px] flex flex-row justify-center items-center gap-[10px] border-t border-brdColor">
+        <div className="w-[88px] h-[87px] flex justify-center items-center gap-[10px] border-t border-brdColor">
           <RightArrow />
         </div>
       </div>

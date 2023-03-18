@@ -15,7 +15,7 @@ const Content = () => {
       className="w-full flex flex-col items-start lg:whitespace-nowrap"
     >
       <div className="flex flex-col w-full lg:hidden">
-        <div className="h-[88px] flex flex-row justify-between items-center py-[30px] px-[32px] border-b border-brdColor">
+        <div className="h-[88px] flex justify-between items-center py-[30px] px-[32px] border-b border-brdColor">
           <h4 className="font-bold text-xl text-textColor">Dashboard</h4>
           <div onClick={() => setIsOpen(!isOpen)}>
             <Menu />

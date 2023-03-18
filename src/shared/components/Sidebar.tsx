@@ -7,15 +7,15 @@ const Sidebar = () => {
     <div
       data-aos="fade-right"
       data-aos-delay="300"
-      className="w-[302px] border-r border-brdColor lg:block hidden"
+      className="border-r border-brdColor lg:block hidden"
     >
-      <div className="h-[88px] flex flex-row justify-between items-center py-[30px] px-[32px] border-b border-brdColor">
+      <div className="h-[88px] flex justify-between items-center py-[30px] px-[32px] border-b border-brdColor">
         <h4 className="font-bold text-xl text-textColor">Dashboard</h4>
         <Menu />
       </div>
       <div className="flex flex-col items-start p-8 gap-9">
-        <div className="flex flex-row justify-between pb-8 gap-[53px] border-b border-brdColor">
-          <div className="flex flex-row items-start p-0 gap-6">
+        <div className="flex items-center justify-between pb-8 gap-[40px] border-b border-brdColor">
+          <div className="flex items-center p-0 gap-2">
             <img
               src={require("../../assests/images/Profile.png")}
               loading="lazy"
